@@ -6,7 +6,7 @@
 
 Ruby Downloader is a lightweight, modern, and high-performance desktop media downloader designed for seamless video and audio extraction from YouTube, TikTok, and Instagram.
 
-Built with performance, user experience, and privacy in mind, it provides fast multi-threaded downloads, high-resolution video formats, lossy and lossless audio conversion with automatic metadata tagging, and a built-in auto-update mechanism.
+Built with performance, user experience, and privacy in mind, it provides fast multi-threaded downloads, high-resolution video formats, lossy and lossless audio conversion with automatic metadata tagging, and a transparent, user-controlled update mechanism.
 
 ---
 
@@ -24,11 +24,6 @@ Built with performance, user experience, and privacy in mind, it provides fast m
   * FLAC (Lossless)
   * WAV (Uncompressed)
 * Automatic ID3 tag injection: Embeds cover art, artist name, and title directly into audio files.
-
-### Seamless Auto-Updater
-* Integrated with GitHub Releases.
-* Automatic background version check on launch.
-* In-app one-click download and silent installation without manual file extraction.
 
 ### Optimized Performance & Potato PC Mode
 * Fully responsive, glassmorphic UI built with hardware acceleration.
@@ -48,13 +43,31 @@ Built with performance, user experience, and privacy in mind, it provides fast m
 
 ---
 
+## Security, Privacy & Update Transparency
+
+To ensure complete peace of mind and user trust, Ruby Downloader adheres to strict security and privacy standards:
+
+### 1. 100% User-Controlled Updates
+* **No Forced Installations:** The application never downloads or installs updates silently in the background without your explicit permission.
+* **Consent First:** When a new release is detected, a notification is displayed showing the version comparison and complete changelog. You decide whether to update immediately or skip.
+
+### 2. Direct GitHub Integration
+* **Verified Source:** Update checks and binary downloads communicate exclusively with the official public GitHub Releases API via secure HTTPS.
+* **No Middleman Servers:** There are no third-party proxies, hidden analytics endpoints, or custom intermediate distribution servers.
+
+### 3. Zero Telemetry & Privacy Guarantee
+* **No Data Collection:** Ruby Downloader does not track, collect, or store your IP address, download history, search queries, or personal media links.
+* **Local Operation:** All configuration files and download histories remain strictly on your local machine.
+
+---
+
 ## Download & Installation
 
 1. Navigate to the **[Latest Release](https://github.com/Spacexcx/RubyDownloader/releases/latest)** page.
 2. Download the installer for your operating system.
 3. Run the installer and launch Ruby Downloader.
 
-Future updates will be delivered directly through the application.
+Future updates will be notified and handled directly within the application with your consent.
 
 ---
 
@@ -97,4 +110,3 @@ Ruby Downloader is intended strictly for personal, educational, and backup purpo
 ## Author
 
 Developed and maintained by **Spacexcx**.
-```
