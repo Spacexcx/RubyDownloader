@@ -1,6 +1,6 @@
 # Ruby Downloader
 
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/9BFkdrjs4X)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
 
@@ -72,7 +72,7 @@ Future updates will be delivered directly through the application.
 
 Join our official Discord community for support, feedback, bug reports, and announcements:
 
-[![Join Discord](https://img.shields.io/badge/Discord-Join%20our%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/9BFkdrjs4X)
+[![Join Discord](https://img.shields.io/badge/Discord-Join%20our%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
 
 ---
 
@@ -97,3 +97,4 @@ Ruby Downloader is intended strictly for personal, educational, and backup purpo
 ## Author
 
 Developed and maintained by **Spacexcx**.
+```
