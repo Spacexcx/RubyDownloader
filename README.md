@@ -1,3 +1,4 @@
+<img width="1254" height="1254" alt="GithubHook2" src="https://github.com/user-attachments/assets/5d2c587c-eb1b-4a8f-b775-7cba9bb72f2f" />
 # Ruby Downloader
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
