@@ -1,5 +1,6 @@
-<img width="200" height="200" alt="GithubHook2" src="https://github.com/user-attachments/assets/5d2c587c-eb1b-4a8f-b775-7cba9bb72f2f" />
 # Ruby Downloader
+
+<img width="200" height="200" alt="GithubHook2" src="https://github.com/user-attachments/assets/5d2c587c-eb1b-4a8f-b775-7cba9bb72f2f" />
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
