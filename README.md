@@ -2,7 +2,6 @@
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
 
 Ruby Downloader is a lightweight, modern, and high-performance desktop media downloader designed for seamless video and audio extraction from YouTube, TikTok, and Instagram.
 
@@ -93,7 +92,6 @@ Join our official Discord community for support, feedback, bug reports, and anno
 
 * **Operating System:** 
   * Windows 10 or Windows 11 (64-bit)
-  * Modern Linux distributions (Ubuntu, Debian, Fedora, Arch - 64-bit)
 * **Processor:** 1.0 GHz or faster
 * **Memory (RAM):** 512 MB RAM minimum (Potato PC Mode recommended for low-spec devices)
 * **Storage:** 300 MB free disk space
