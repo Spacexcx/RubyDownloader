@@ -1,10 +1,15 @@
+<div align="center">
+<img src="https://github.com/user-attachments/assets/5d2c587c-eb1b-4a8f-b775-7cba9bb72f2f" alt="Ruby Downloader" width="200" height="200" />
 # Ruby Downloader
-<img width="200" height="200" alt="GithubHook2" src="https://github.com/user-attachments/assets/5d2c587c-eb1b-4a8f-b775-7cba9bb72f2f" />
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
-[![Version](https://img.shields.io/badge/Version-1.6.9-red?style=for-the-badge)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
-Ruby Downloader is a lightweight, modern, and high-performance desktop media downloader designed for fast, watermark-free video and audio extraction from YouTube, TikTok, and Instagram.
-Built with performance, privacy, and transparency in mind, Ruby Downloader offers multi-resolution video downloads up to 4K Ultra HD, YouTube playlist batch downloading, a concurrent queue manager, lossless audio conversion with automatic ID3 metadata tagging, session cookie authentication, and user-controlled updates.
+<p>
+  <a href="https://discord.gg/FkRsbQrX9v"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/Spacexcx/RubyDownloader/releases/latest"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" /></a>
+  <a href="https://github.com/Spacexcx/RubyDownloader/releases/latest"><img src="https://img.shields.io/badge/Version-1.6.9-red?style=for-the-badge" alt="Version" /></a>
+</p>
+<p>
+  Ruby Downloader is a lightweight, modern, and high-performance desktop media downloader designed for fast, watermark-free video and audio extraction from YouTube, TikTok, and Instagram.
+</p>
+</div>
 ---
 ## Features
 ### Multi-Platform Media Extraction
@@ -78,7 +83,9 @@ Future version notices can be checked and applied directly from the in-app Setti
 ---
 ## Community & Support
 Join the official Discord community for technical assistance, feature requests, announcements, and direct developer feedback:
-[![Join Discord](https://img.shields.io/badge/Discord-Join%20our%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
+<p>
+  <a href="https://discord.gg/FkRsbQrX9v"><img src="https://img.shields.io/badge/Discord-Join%20our%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server" /></a>
+</p>
 ---
 ## System Requirements
 * **Operating System:** Windows 10 or Windows 11 (64-bit)
