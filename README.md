@@ -1,112 +1,96 @@
 # Ruby Downloader
-
 <img width="200" height="200" alt="GithubHook2" src="https://github.com/user-attachments/assets/5d2c587c-eb1b-4a8f-b775-7cba9bb72f2f" />
-
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
-
-Ruby Downloader is a lightweight, modern, and high-performance desktop media downloader designed for seamless video and audio extraction from YouTube, TikTok, and Instagram.
-
-Built with performance, user experience, and privacy in mind, it provides fast multi-threaded downloads, high-resolution video formats, lossy and lossless audio conversion with automatic metadata tagging, and a transparent, user-controlled update mechanism.
-
+[![Version](https://img.shields.io/badge/Version-1.6.9-red?style=for-the-badge)](https://github.com/Spacexcx/RubyDownloader/releases/latest)
+Ruby Downloader is a lightweight, modern, and high-performance desktop media downloader designed for fast, watermark-free video and audio extraction from YouTube, TikTok, and Instagram.
+Built with performance, privacy, and transparency in mind, Ruby Downloader offers multi-resolution video downloads up to 4K Ultra HD, YouTube playlist batch downloading, a concurrent queue manager, lossless audio conversion with automatic ID3 metadata tagging, session cookie authentication, and user-controlled updates.
 ---
-
 ## Features
-
 ### Multi-Platform Media Extraction
-* **YouTube:** Full resolution downloads from 360p up to 1080p Full HD, 2K, and 4K Ultra HD.
-* **TikTok:** Instant watermark-free video and original sound extraction.
-* **Instagram:** Download Reels, video posts, audio tracks, and full-resolution photos.
-
-### High-Fidelity Audio Extraction
-* Support for multiple audio formats:
+* **YouTube:** Full resolution downloads from 360p up to 1080p Full HD, 1440p (2K), and 2160p (4K Ultra HD) at 60 FPS.
+* **YouTube Playlists:** Complete playlist detection with one-click batch addition to the download queue.
+* **TikTok:** Clean, watermark-free video downloads and direct high-quality audio extraction.
+* **Instagram:** Reels, video posts, audio tracks, and original full-resolution photos.
+### High-Fidelity Audio Extraction & ID3 Tagging
+* Multiple audio output formats:
   * MP3 (320 kbps High Quality & 192 kbps Standard)
-  * M4A / AAC (Original stream)
+  * M4A / AAC (Original stream copy)
   * FLAC (Lossless)
-  * WAV (Uncompressed)
-* Automatic ID3 tag injection: Embeds cover art, artist name, and title directly into audio files.
-
-### Optimized Performance & Potato PC Mode
-* Fully responsive, glassmorphic UI built with hardware acceleration.
-* **Potato PC Mode:** Dedicated setting to disable background particles, blurs, and heavy animations for low-end hardware, minimizing CPU and RAM usage.
-
+  * WAV (Uncompressed studio quality)
+* Automatic ID3 metadata tagging: Embeds cover art, artist name, and title directly into downloaded audio files.
+### Advanced YouTube Engine & 4K Reliability
+* **SABR Experiment Bypass:** Utilizes an intelligent client fallback chain (`web_embedded`, `visionos`, `default`) on the first attempt to prevent YouTube SABR stream restrictions from stripping high-resolution formats.
+* **Strict Resolution Matching:** Employs precise format sorting to guarantee the selected resolution (4K, 2K, 1080p, 720p) is downloaded without silent degradation.
+* **TLS Session Stabilization:** Mitigates Windows OpenSSL session handshake errors for reliable downloads on any connection.
+### Multi-Download Queue Manager
+* Concurrent download management with customizable concurrency limits.
+* Real-time progress tracking displaying download speed, percentage, and time remaining (ETA).
+* Individual download controls with pause, retry, and cancellation capabilities.
+### Dedicated Session Authentication (cookies.txt)
+* Built-in Netscape `cookies.txt` support for accessing age-restricted videos and member-only content.
+* Isolated session cookie processing avoids SQLite database locks and Windows DPAPI browser encryption hurdles.
+### Potato PC Mode & Performance Tuning
+* Hardware-accelerated glassmorphic desktop interface.
+* **Potato PC Mode:** Dedicated performance profile that turns off background canvas animations, particle effects, and backdrop blur to minimize CPU and RAM usage on low-end systems.
+### Theme & Audio Customization
+* Per-platform color themes (Ruby Red, Sapphire Blue, Topaz Yellow).
+* Customizable Matrix rain background with adjustable speed and custom character input.
+* Interactive audio feedback (SFX) for queue additions, completion, and notifications with volume control.
 ### Smart Clipboard Monitor
-* Automatically detects valid media links copied to your clipboard and prompts for instant one-click analysis.
-
-### Multi-Language Support
-* Fully localized interface supporting 6 languages:
+* Automatically detects valid YouTube, TikTok, and Instagram links copied to the Windows clipboard for instant one-click analysis.
+### Multi-Language Localization
+* Native interface translations for 6 languages:
   * English
-  * Turkish
-  * German
-  * Spanish
-  * French
-  * Russian
-
+  * Turkish (Türkçe)
+  * German (Deutsch)
+  * Spanish (Español)
+  * French (Français)
+  * Russian (Русский)
 ---
-
 ## Security, Privacy & Update Transparency
-
-To ensure complete peace of mind and user trust, Ruby Downloader adheres to strict security and privacy standards:
-
+Ruby Downloader is committed to open, user-first security practices:
 ### 1. 100% User-Controlled Updates
-* **No Forced Installations:** The application never downloads or installs updates silently in the background without your explicit permission.
-* **Consent First:** When a new release is detected, a notification is displayed showing the version comparison and complete changelog. You decide whether to update immediately or skip.
-
+* **No Silent Background Installs:** The application will never install updates without your explicit consent.
+* **Transparent Changelogs:** When an update is available, you receive a side-by-side version comparison and detailed changelog before deciding to proceed.
 ### 2. Direct GitHub Integration
-* **Verified Source:** Update checks and binary downloads communicate exclusively with the official public GitHub Releases API via secure HTTPS.
-* **No Middleman Servers:** There are no third-party proxies, hidden analytics endpoints, or custom intermediate distribution servers.
-
-### 3. Zero Telemetry & Privacy Guarantee
-* **No Data Collection:** Ruby Downloader does not track, collect, or store your IP address, download history, search queries, or personal media links.
-* **Local Operation:** All configuration files and download histories remain strictly on your local machine.
-
+* Update verifications and installer downloads communicate directly with the official GitHub Releases API via secure HTTPS.
+* No middleman proxies, tracking endpoints, or external routing servers.
+### 3. Zero Telemetry & Local Storage
+* Zero tracking: No analytics, query logs, IP logging, or telemetry data collection.
+* All configuration settings, session cookies, and download history remain entirely on your local computer.
+### 4. Digitally Signed Binaries
+* Application executables and setup packages are cryptographically signed (`CN=Spacexcx`) to guarantee file integrity and protect against unauthorized tampering.
 ---
-
 ## Download & Installation
-
-1. Navigate to the **[Latest Release](https://github.com/Spacexcx/RubyDownloader/releases/latest)** page.
-2. Download the installer for your operating system.
+1. Go to the **[Latest Release](https://github.com/Spacexcx/RubyDownloader/releases/latest)** page.
+2. Download `RubyDownloader_Setup.exe`.
 3. Run the installer and launch Ruby Downloader.
-
-Future updates will be notified and handled directly within the application with your consent.
-
+Future version notices can be checked and applied directly from the in-app Settings menu.
 ---
-
 ## How to Use
-
-1. Launch Ruby Downloader.
-2. Select your platform tab (YouTube, TikTok, or Instagram).
-3. Paste the media URL into the input field and click **Search**.
-4. Choose your preferred video resolution or audio quality.
-5. Click **Download**. Once completed, open the file or its directory directly from the interface.
-
+1. Launch **Ruby Downloader**.
+2. Select your platform (YouTube, TikTok, or Instagram).
+3. Paste the media or playlist URL into the search box and click **Search**.
+4. Choose your desired video resolution (e.g., 4K, 1080p) or audio format (e.g., MP3 320 kbps).
+5. Click **Download** or add to queue.
+6. When complete, click **Open File** or **Show in Folder** to access your downloaded media.
 ---
-
 ## Community & Support
-
-Join our official Discord community for support, feedback, bug reports, and announcements:
-
+Join the official Discord community for technical assistance, feature requests, announcements, and direct developer feedback:
 [![Join Discord](https://img.shields.io/badge/Discord-Join%20our%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FkRsbQrX9v)
-
 ---
-
 ## System Requirements
-
-* **Operating System:** 
-  * Windows 10 or Windows 11 (64-bit)
+* **Operating System:** Windows 10 or Windows 11 (64-bit)
 * **Processor:** 1.0 GHz or faster
-* **Memory (RAM):** 512 MB RAM minimum (Potato PC Mode recommended for low-spec devices)
-* **Storage:** 300 MB free disk space
-* **Network:** Active Internet connection
-
+* **Memory (RAM):** 512 MB minimum (Potato PC Mode recommended for low-spec systems)
+* **Storage:**
+  * **Installer Download Size:** ~137 MB
+  * **Installed Disk Space:** ~670 MB free space
+* **Network:** Active broadband Internet connection
 ---
-
 ## Disclaimer & Terms of Use
-
-Ruby Downloader is intended strictly for personal, educational, and backup purposes. Users are responsible for complying with the terms of service of the platforms from which they download media, as well as applicable copyright laws in their jurisdiction.
-
+Ruby Downloader is intended for personal, educational, and backup purposes only. Users are responsible for complying with the terms of service of the third-party platforms from which media is retrieved, as well as all applicable intellectual property and copyright regulations in their jurisdiction.
 ---
-
 ## Author
-
 Developed and maintained by **Spacexcx**.
