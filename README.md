@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://discord.gg/FkRsbQrX9v"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/Spacexcx/RubyDownloader/releases/latest"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" /></a>
-  <a href="https://github.com/Spacexcx/RubyDownloader/releases/latest"><img src="https://img.shields.io/badge/Version-1.6.9-red?style=for-the-badge" alt="Version" /></a>
+  <a href="https://github.com/Spacexcx/RubyDownloader/releases/latest"><img src="https://img.shields.io/badge/Version-1.7.0-red?style=for-the-badge" alt="Version" /></a>
 </p>
 
 <p align="center">
